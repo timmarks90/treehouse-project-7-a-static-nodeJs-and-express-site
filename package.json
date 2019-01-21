@@ -2,7 +2,7 @@
   "name": "treehouse-project-7-a-static-nodeJs-and-express-site",
   "version": "1.0.0",
   "description": "A Static Node.js and Express Site",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/timmarks90/treehouse-project-7-a-static-nodeJs-and-express-site#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
   }
 }
