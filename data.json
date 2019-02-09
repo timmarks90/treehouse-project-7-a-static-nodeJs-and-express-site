@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "projectName",
+            "description": "projectDesc",
+            "technologies": [
+                "tech1",
+                "tech2",
+                "tech3"
+            ],
+            "live_link": "github pages link to live project",
+            "github_link": "github repo",
+            "image_urls": [
+                ".views/mainImage",
+                ".views/image1",
+                ".views/image2",
+                ".views/image3"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "projectName",
+            "description": "projectDesc",
+            "technologies": [
+                "tech1",
+                "tech2",
+                "tech3"
+            ],
+            "live_link": "github pages link to live project",
+            "github_link": "github repo",
+            "image_urls": [
+                ".views/mainImage",
+                ".views/image1",
+                ".views/image2",
+                ".views/image3"
+            ]
+        }
+    ]
+}
