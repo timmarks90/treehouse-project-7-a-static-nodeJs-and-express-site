@@ -2,35 +2,106 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "projectName",
-            "description": "projectDesc",
+            "project_name": "Random Quote Generator",
+            "description": "Build a random quote generator using Javascript",
             "technologies": [
-                "tech1",
-                "tech2",
-                "tech3"
+                "Javascript",
+                "HTML",
+                "CSS"
             ],
-            "live_link": "github pages link to live project",
-            "github_link": "github repo",
+            "live_link": "https://timmarks90.github.io/treehouse-fullstack-project-1/",
+            "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-1",
             "image_urls": [
-                ".views/mainImage",
-                ".views/image1",
+                "../static/images/project-1.png",
+                "../static/images/main-shot.png",
                 ".views/image2",
                 ".views/image3"
             ]
         },
         {
             "id": 1,
-            "project_name": "projectName",
-            "description": "projectDesc",
+            "project_name": "Pagination Filter",
+            "description": "The page includes a list of 54 students. Programming to display 10 students per page, and add buttons to jump between the lists of 10 students.",
             "technologies": [
-                "tech1",
-                "tech2",
-                "tech3"
+                "Javascript",
+                "HTML",
+                "CSS"
             ],
-            "live_link": "github pages link to live project",
-            "github_link": "github repo",
+            "live_link": "https://timmarks90.github.io/treehouse-fullstack-project-2-pagination-filter/",
+            "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-2-pagination-filter",
             "image_urls": [
-                ".views/mainImage",
+                "../static/images/project-2.png",
+                ".views/image1",
+                ".views/image2",
+                ".views/image3"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Build an interactive registration form using HTML, CSS, and Javascript",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://timmarks90.github.io/treehouse-fullstack-project-3-interactive-form/",
+            "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-3-interactive-form",
+            "image_urls": [
+                "../static/images/project-3.png",
+                ".views/image1",
+                ".views/image2",
+                ".views/image3"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Tic-tac-toe",
+            "description": "Build a tic-tac-toe game using Javascript",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://timmarks90.github.io/treehouse-fullstack-project-4-tic-tac-toe/",
+            "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-4-tic-tac-toe",
+            "image_urls": [
+                "../static/images/project-4.png",
+                ".views/image1",
+                ".views/image2",
+                ".views/image3"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Use a Public API to Create an Employee Directory",
+            "description": "Request a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://timmarks90.github.io/treehouse-fullstack-project-5-employee-directory-through-public-api/",
+            "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-5-employee-directory-through-public-api",
+            "image_urls": [
+                "../static/images/project-5.png",
+                ".views/image1",
+                ".views/image2",
+                ".views/image3"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "NodeJs Content Scraper",
+            "description": "Use Node JS to crawl a website, scrape product details, and save the details into a formatted CSV file within a data folder.",
+            "technologies": [
+                "NodeJS",
+                "Javascript"
+            ],
+            "live_link": "https://timmarks90.github.io/treehouse-project-6-node-js-content-scraper/",
+            "github_link": "https://github.com/timmarks90/treehouse-project-6-node-js-content-scraper",
+            "image_urls": [
+                "../static/images/project-6.png",
                 ".views/image1",
                 ".views/image2",
                 ".views/image3"

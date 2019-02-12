@@ -4,6 +4,8 @@ const { projects } = require('./data.json');
 // initiate express
 const app = express();
 
+const PORT = 3000;
+
 // Use a static route and the express.static method to serve the static files located in the public folder
 app.use("/static", express.static("public"));
 
@@ -12,8 +14,8 @@ app.set('view engine', 'pug');
 
 // Home route
 app.get('/', (req, res) => {
-    res.locals.projects = projects;
-    res.render('index', projects);
+    res.locals.projects = projects; 
+    res.render('index');
 });
 
 // About route
@@ -21,11 +23,18 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+// Projects dynamic route
+app.get('/projects/:id', (req, res) => {
+    const { id } = req.params;
+    res.locals.projects = projects[id]; 
+    res.render('project', projects[id]);
+});
+
 // Log error if non-existent route
 app.use((req, res, next) => {
     const err = new Error('Page not found');
     err.status = 404;
-    console.log('404 error');
+    console.log(`There was an error: ${err.message}`);
     next(err);
 });
 
@@ -35,8 +44,6 @@ app.use((err, req, res, next) => {
     res.status(err.status);
     res.render('error', err);
 });
-
-const PORT = 3000;
 
 // Launch server on localhost:3000
 app.listen(PORT, () => {
