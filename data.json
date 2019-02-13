@@ -47,9 +47,8 @@
             "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-3-interactive-form",
             "image_urls": [
                 "../static/images/project-3.png",
-                ".views/image1",
-                ".views/image2",
-                ".views/image3"
+                "../static/images/3.1.png",
+                "../static/images/3.2.png"
             ]
         },
         {
@@ -65,9 +64,8 @@
             "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-4-tic-tac-toe",
             "image_urls": [
                 "../static/images/project-4.png",
-                ".views/image1",
-                ".views/image2",
-                ".views/image3"
+                "../static/images/4.1.png",
+                "../static/images/4.2.png"
             ]
         },
         {
@@ -83,9 +81,8 @@
             "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-5-employee-directory-through-public-api",
             "image_urls": [
                 "../static/images/project-5.png",
-                ".views/image1",
-                ".views/image2",
-                ".views/image3"
+                "../static/images/5.1.png",
+                "../static/images/5.2.png"
             ]
         },
         {
@@ -100,9 +97,8 @@
             "github_link": "https://github.com/timmarks90/treehouse-project-6-node-js-content-scraper",
             "image_urls": [
                 "../static/images/project-6.png",
-                ".views/image1",
-                ".views/image2",
-                ".views/image3"
+                "../static/images/6.1.png",
+                "../static/images/6.2.png"
             ]
         }
     ]
