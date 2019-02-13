@@ -34,15 +34,18 @@ app.get('/projects/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error('Page not found');
     err.status = 404;
-    console.log(`There was an error: ${err.message}`);
     next(err);
 });
 
 // Log errors if failed request
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.status(err.status);
-    res.render('error', err);
+    // print out detailed error if present
+    if (err.status >= 100 && err.status < 600)
+        res.status(err.status);
+    else
+        res.status(500);
+    res.render('error');
 });
 
 // Launch server on localhost:3000
