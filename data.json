@@ -13,9 +13,8 @@
             "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-1",
             "image_urls": [
                 "../static/images/project-1.png",
-                "../static/images/main-shot.png",
-                ".views/image2",
-                ".views/image3"
+                "../static/images/1.1.png",
+                "../static/images/1.2.png"
             ]
         },
         {
@@ -31,9 +30,8 @@
             "github_link": "https://github.com/timmarks90/treehouse-fullstack-project-2-pagination-filter",
             "image_urls": [
                 "../static/images/project-2.png",
-                ".views/image1",
-                ".views/image2",
-                ".views/image3"
+                "../static/images/2.1.png",
+                "../static/images/2.2.png"
             ]
         },
         {
